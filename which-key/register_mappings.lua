@@ -13,7 +13,7 @@ return{
           ["p"] = {
             name = "packer",
             s = { "<cmd> PackerStatus<CR>", "PackerStatus" },
-            S = { "<cmd> PackerCompile<CR>", "PackerCompile" },
+            S = { "<cmd> PackerSync<CR>", "PackerSync" },
             u = { "<cmd> PackerUpdate<CR>", "PackerUpdate" },
             i = { "<cmd> PackerCompile<CR>", "PackerCompile" },
           },
