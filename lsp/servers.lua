@@ -1,5 +1,6 @@
 return{
     "sumneko_lua", -- Lua
+    "clangd", -- C C++
     "tsserver", -- Typescript
     "jsonls", -- Json
     "texlab", -- Latex/Markdown
