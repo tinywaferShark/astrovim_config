@@ -24,4 +24,6 @@ return {
         end,
     },
     ["declancm/cinnamon.nvim"] = { disable = true }, -- 关闭滚动屏幕
+
+    ["dstein64/vim-startuptime"] ={},
 }
