@@ -11,4 +11,6 @@ Reffered to his [config1](https://github.com/kabinspace/AstroNvim_user)config.
 
 ```
   git clone https://github.com/tinywaferShark/astrovim_config ~/.config/nvim/lua/user
+  cd ~/.config/nvim/lua/user
+  git checkout -b Astronv2.0  origin/Astronv2.0
 ```
