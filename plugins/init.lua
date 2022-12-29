@@ -1,4 +1,9 @@
 return {
+    -- completion
+    ['hrsh7th/cmp-cmdline'] ={after = "cmp-nvim-lsp"},
+
+    ["junegunn/vim-easy-align"] = { opt = true, cmd = "EasyAlign" },
+    -- 
     ["nvim-pack/nvim-spectre"] = {
         config = function() require "user.plugins.nvim-spectre" end,
     },
@@ -23,7 +28,13 @@ return {
             }
         end,
     },
-    ["declancm/cinnamon.nvim"] = { disable = true }, -- 关闭滚动屏幕
-
+   
     ["dstein64/vim-startuptime"] ={},
+    -- Disable 
+    ["jayp0521/mason-nvim-dap.nvim"] = {disable = true},
+    ["mfussenegger/nvim-dap"] = {disable = true},
+    ["rcarriga/nvim-dap-ui"] = {disable = true},
+    ["b0o/SchemaStore.nvim"] = { disable = true },
+    ["jose-elias-alvarez/null-ls.nvim"] = {disable = true},
+    ["jayp0521/mason-null-ls.nvim"] = {disable = true},
 }

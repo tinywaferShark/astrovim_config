@@ -47,3 +47,14 @@
 --   --   -- ["<c-e>"] = { "<Plug>Send", desc = "Send to REPL" },
 --   -- },
 -- }
+return{
+      n = {
+    -- lsp diagnostic
+    -- ["g]"] = { function() vim.diagnostic.goto_prev end, desc = "diagnostic Previous " },
+    -- ["g["] = { function() vim.diagnostic.goto_next end, desc = "diagnostic Next" },
+    ["g]"] ={ function() vim.diagnostic.goto_next() end, desc = "Toggle syntax highlight" },
+    ["g["] ={ function() vim.diagnostic.goto_prev() end, desc = "Toggle syntax highlight" },
+  },
+--   maps.n["<leader>uy"] = { function() astronvim.ui.toggle_syntax() end, desc = "Toggle syntax highlight" }
+
+}
