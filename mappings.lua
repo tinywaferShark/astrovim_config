@@ -52,6 +52,8 @@ return{
     -- lsp diagnostic
     -- ["g]"] = { function() vim.diagnostic.goto_prev end, desc = "diagnostic Previous " },
     -- ["g["] = { function() vim.diagnostic.goto_next end, desc = "diagnostic Next" },
+    ["gt"] = { "<cmd>BufferLineCycleNext<cr>", desc = "Buffer Next" },
+    ["gT"] = { "<cmd>BufferLineCyclePrev<cr>", desc = "Buffer Previous" },
     ["g]"] ={ function() vim.diagnostic.goto_next() end, desc = "Toggle syntax highlight" },
     ["g["] ={ function() vim.diagnostic.goto_prev() end, desc = "Toggle syntax highlight" },
   },
